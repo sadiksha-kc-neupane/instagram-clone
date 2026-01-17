@@ -24,14 +24,34 @@ body {
   padding: 20px;
 }
 
-.feed{ 
-    width: 600px;
-    padding: 20px;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  padding: 12px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.feed {
+  width: 600px;
+  padding: 20px;
+}
 
 .suggestions {
   width: 300px;
   padding: 20px;
 }
-
